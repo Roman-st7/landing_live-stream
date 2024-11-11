@@ -1,0 +1,23 @@
+{
+  "name": "live-stream",
+  "version": "1.0.0",
+  "description": "landing page",
+  "source": "index.html",
+  "scripts": {
+   "sass:watch": "sass --style=expanded --watch styles:dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roman-st7/landing_live-stream.git"
+  },
+  "author": "Roman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Roman-st7/landing_live-stream/issues"
+  },
+  "homepage": "https://github.com/Roman-st7/landing_live-stream#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "sass": "^1.80.6"
+  }
+}
