@@ -52,6 +52,7 @@
 .form{
     width:min (625px,100%);
     @include m.d-flex(center,center,nowrap,column, 0,23px);
+    overflow: hidden;
 
     %__title{
         @include m.font(36px,400,v.$color_black);

@@ -48,7 +48,7 @@
     <div class="mobile-navigation">
         <label for="checkboxID" class="mobile-navigation__burger">
             <svg class="mobile-navigation__burger-icon" width="25" height="24" aria-label="burger icon">
-                <use href="assets/sprites.svg#birger-icon"></use>
+                <use href="assets/sprites.svg#burger-icon"></use>
             </svg>
         </label>
 
@@ -57,14 +57,36 @@
         <nav class="mobile-navigation__menu nav">
             <ul class="nav__list">
                 <li class="nav__list-item">
-                    <a href="#work"> How we work</a>
+                    <a href="#work" class="nav__list-item-link"> How we work</a>
                 </li>
 
                 <li class="nav__list-item">
-                    <a href="#work"> How we work</a>
+                    <a href="#about" class="nav__list-item-link"> About us</a>
+                </li>
+                
+                <li class="nav__list-item">
+                    <a href="#experience" class="nav__list-item-link"> Our experience</a>
+                </li>
+
+                <li class="nav__list-item">
+                    <a href="#testimonials" class="nav__list-item-link"> Testimonials</a>
+                </li>
+
+                <li class="nav__list-item">
+                    <a href="#formSection" class="nav__list-item-link"> form</a>
+                </li>
+
+                <li class="nav__list-item">
+                    <a href="#contacts" class="nav__list-item-link">Contacts</a>
                 </li>
             </ul>    
+            <label for="checkboxID" class="nav__close">
+                <svg class="nav__close-icon" width="25" height="24" aria-label="close icon">
+                    <use href="assets/sprites.svg#cross-icon"></use>
+                </svg>
+            </label>
         </nav>
+
     </div>
     <main class="main" aria-label="main content">
         <section class="hero-section" aria-label="section hero">
@@ -258,7 +280,7 @@
                 </div>
             </div>
         </section>
-        <section class="form-section" aria-label="form section">
+        <section class="form-section" aria-label="form section" id="formSection">
             <div class="container">
                 <div class="form-section__wrapper">
                     <form action="mailto:streaming_compony@mail.ru" class="form" aria-labelledby="form-title">
